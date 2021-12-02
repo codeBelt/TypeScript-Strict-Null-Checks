@@ -1,0 +1,20 @@
+{
+  "name": "typescript-strict-null-checks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "---------- PROD -------------------------------------------------------": "",
+    "build": "tsc",
+    "---------- Linting ----------------------------------------------------": "",
+    "ts": "tsc --noEmit",
+    "ts:watch": "npm run ts -- --watch",
+    "ts:strict": "tsc-strict",
+    "-----------------------------------------------------------------------": ""
+  },
+  "repository": "https://github.com/codeBelt/TypeScript-Strict-Null-Checks.git",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "typescript-strict-plugin": "^1.1.2"
+  }
+}

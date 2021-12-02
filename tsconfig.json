@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["es2018"],
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "plugins": [
+      {
+        "name": "typescript-strict-plugin",
+        "paths": [
+          "./src/"
+        ]
+      }
+    ]
+  }
+}
